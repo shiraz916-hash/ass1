@@ -1,5 +1,18 @@
 package ass1;
 
-public class enemy {
+public class Enemy extends Character {
+	private int damage;
+	
+	public Enemy(String name, int health, int level, int damage) {
+		super(name, health, level);
+		this.damage = damage;
+	}
+	public int getDamage() {
+		return damage;
+	}
+	@Override
+	public String toString() {
+        return super.toString() + "\n" +"Damage: " + damage + "\n";
+	}
 
 }
