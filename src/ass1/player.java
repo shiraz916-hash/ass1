@@ -1,3 +1,4 @@
+//Shiraz Turgeman 208250662 and Tehila Dahan 212633507
 package ass1;
 
 public class Player extends Character {
@@ -52,6 +53,6 @@ public class Player extends Character {
             }
         }
 
-        return super.toString() + "Inventory: " + items;
+        return super.toString() +" "+ "Inventory: " + items;
     }
 }
